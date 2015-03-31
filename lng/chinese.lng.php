@@ -22,77 +22,77 @@
  */
 
 $lng['translator'] = '';
-$lng['panel']['edit'] = 'edit';
-$lng['panel']['delete'] = 'delete';
-$lng['panel']['create'] = 'create';
-$lng['panel']['save'] = 'save';
-$lng['panel']['yes'] = 'yes';
-$lng['panel']['no'] = 'no';
+$lng['panel']['edit'] = '编辑';
+$lng['panel']['delete'] = '删除';
+$lng['panel']['create'] = '创建';
+$lng['panel']['save'] = '保存';
+$lng['panel']['yes'] = '是';
+$lng['panel']['no'] = '否';
 $lng['panel']['emptyfornochanges'] = 'empty for no changes';
 $lng['panel']['emptyfordefault'] = 'empty for defaults';
-$lng['panel']['path'] = 'Path';
-$lng['panel']['toggle'] = 'Toggle';
-$lng['panel']['next'] = 'next';
-$lng['panel']['dirsmissing'] = 'Can not find or read the directory!';
+$lng['panel']['path'] = '路径';
+$lng['panel']['toggle'] = '切换';
+$lng['panel']['next'] = '继续';
+$lng['panel']['dirsmissing'] = '目录不存在或无法读取!';
 
 /**
  * Login
  */
 
-$lng['login']['username'] = 'Username';
-$lng['login']['password'] = 'Password';
-$lng['login']['language'] = 'Language';
-$lng['login']['login'] = 'Login';
-$lng['login']['logout'] = 'Logout';
+$lng['login']['username'] = '用户名';
+$lng['login']['password'] = '密码';
+$lng['login']['language'] = '语言';
+$lng['login']['login'] = '登陆';
+$lng['login']['logout'] = '注销';
 $lng['login']['profile_lng'] = 'Profile language';
 
 /**
  * Customer
  */
 
-$lng['customer']['documentroot'] = 'Home directory';
-$lng['customer']['name'] = 'Name';
-$lng['customer']['firstname'] = 'First name';
-$lng['customer']['company'] = 'Company';
-$lng['customer']['street'] = 'Street';
-$lng['customer']['zipcode'] = 'Zipcode';
-$lng['customer']['city'] = 'City';
-$lng['customer']['phone'] = 'Phone';
-$lng['customer']['fax'] = 'Fax';
-$lng['customer']['email'] = 'Email';
-$lng['customer']['customernumber'] = 'Customer ID';
-$lng['customer']['diskspace'] = 'Webspace (MiB)';
-$lng['customer']['traffic'] = 'Traffic (GiB)';
-$lng['customer']['mysqls'] = 'MySQL-databases';
-$lng['customer']['emails'] = 'Email-addresses';
-$lng['customer']['accounts'] = 'Email-accounts';
-$lng['customer']['forwarders'] = 'Email-forwarders';
-$lng['customer']['ftps'] = 'FTP-accounts';
-$lng['customer']['subdomains'] = 'Subdomains';
-$lng['customer']['domains'] = 'Domains';
-$lng['customer']['unlimited'] = '∞';
+$lng['customer']['documentroot'] = '主目录';
+$lng['customer']['name'] = '名字';
+$lng['customer']['firstname'] = '名字';
+$lng['customer']['company'] = '公司';
+$lng['customer']['street'] = '街道';
+$lng['customer']['zipcode'] = '邮编';
+$lng['customer']['city'] = '城市';
+$lng['customer']['phone'] = '手机';
+$lng['customer']['fax'] = '传真';
+$lng['customer']['email'] = '邮箱';
+$lng['customer']['customernumber'] = '客户ID';
+$lng['customer']['diskspace'] = '网站空间(MiB)';
+$lng['customer']['traffic'] = '流量(GiB)';
+$lng['customer']['mysqls'] = 'MySQL数据库';
+$lng['customer']['emails'] = '邮件地址';
+$lng['customer']['accounts'] = '邮件账户';
+$lng['customer']['forwarders'] = '邮件转发';
+$lng['customer']['ftps'] = 'FTP账户';
+$lng['customer']['subdomains'] = '子域';
+$lng['customer']['domains'] = '域名';
+$lng['customer']['unlimited'] = '无限';
 
 /**
  * Customermenue
  */
 
-$lng['menue']['main']['main'] = 'Main';
-$lng['menue']['main']['changepassword'] = 'Change password';
-$lng['menue']['main']['changelanguage'] = 'Change language';
-$lng['menue']['email']['email'] = 'Email';
-$lng['menue']['email']['emails'] = 'Addresses';
-$lng['menue']['email']['webmail'] = 'Webmail';
+$lng['menue']['main']['main'] = '首页';
+$lng['menue']['main']['changepassword'] = '修改密码';
+$lng['menue']['main']['changelanguage'] = '变更语言';
+$lng['menue']['email']['email'] = '邮箱';
+$lng['menue']['email']['emails'] = '邮件地址';
+$lng['menue']['email']['webmail'] = 'WebMail';
 $lng['menue']['mysql']['mysql'] = 'MySQL';
-$lng['menue']['mysql']['databases'] = 'Databases';
+$lng['menue']['mysql']['databases'] = '数据库';
 $lng['menue']['mysql']['phpmyadmin'] = 'phpMyAdmin';
-$lng['menue']['domains']['domains'] = 'Domains';
-$lng['menue']['domains']['settings'] = 'Settings';
+$lng['menue']['domains']['domains'] = '域名';
+$lng['menue']['domains']['settings'] = '设置';
 $lng['menue']['ftp']['ftp'] = 'FTP';
-$lng['menue']['ftp']['accounts'] = 'Accounts';
+$lng['menue']['ftp']['accounts'] = '账户';
 $lng['menue']['ftp']['webftp'] = 'WebFTP';
 $lng['menue']['extras']['extras'] = 'Extras';
 $lng['menue']['extras']['directoryprotection'] = 'Directory protection';
-$lng['menue']['extras']['pathoptions'] = 'Path options';
+$lng['menue']['extras']['pathoptions'] = '路径设置';
 
 /**
  * Index
@@ -105,10 +105,10 @@ $lng['index']['accountdetails'] = 'Account details';
  * Change Password
  */
 
-$lng['changepassword']['old_password'] = 'Old password';
-$lng['changepassword']['new_password'] = 'New password';
-$lng['changepassword']['new_password_confirm'] = 'Confirm password';
-$lng['changepassword']['new_password_ifnotempty'] = 'New password (empty = no change)';
+$lng['changepassword']['old_password'] = '旧密码';
+$lng['changepassword']['new_password'] = '新密码';
+$lng['changepassword']['new_password_confirm'] = '确认密码';
+$lng['changepassword']['new_password_ifnotempty'] = '新密码 (留空不修改密码)';
 $lng['changepassword']['also_change_ftp'] = ' also change password of the main FTP account';
 
 /**
